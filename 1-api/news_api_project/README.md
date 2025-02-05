@@ -1,6 +1,7 @@
 # News API Project 📰
 
-This project is a Python application that **fetches news from NewsAPI** and saves them to an Excel file.
+This project is a Python application that **fetches news from NewsAPI** and saves them to an Excel file.  
+It also **logs execution times** for performance analysis and BI tools.
 
 ## 🚀 Usage
 
@@ -30,13 +31,16 @@ python fetch_news.py
 ## 📂 Project Structure
 ```md
 news_api_project/
-│── data/                     # Folder where fetched news files are saved
-│   ├── news_api_response_YYYY-MM-DD_HH-MM.txt
-│   ├── news_data_YYYY-MM-DD_HH-MM.xlsx
-│── fetch_news.py              # Python script to fetch news and save to Excel
-│── requirements.txt           # Dependencies list
-│── .env                       # API key configuration file (excluded from Git)
-│── README.md                  # Project documentation
+│── data/                      # Stores fetched news data
+│   ├── news_api_response_YYYY-MM-DD_HH-MM-SS-ffffff.txt
+│   ├── news_data_YYYY-MM-DD_HH-MM-SS-ffffff.xlsx
+│── execution_logs/             # Stores execution time logs
+│   ├── execution_log.csv
+│   ├── execution_log.json
+│── fetch_news.py               # Python script to fetch news and save to Excel
+│── requirements.txt            # Dependencies list
+│── .env                        # API key configuration file (excluded from Git)
+│── README.md                   # Project documentation
 ```
 
 ---
@@ -46,6 +50,15 @@ news_api_project/
 ✔ Saves news articles in an **Excel (.xlsx) file**  
 ✔ Stores the raw API response in a **.txt file**  
 ✔ Uses a **`.env` file** to secure API credentials  
+✔ **Logs execution times** to `execution_logs/` for analysis  
+
+---
+
+## 📊 Execution Logs for BI Tools
+- Every script run is **logged with precise timestamps** including seconds and milliseconds.
+- Logs are saved in:
+  - **CSV format** (`execution_logs/execution_log.csv`) for easy import into BI tools like **Power BI, Tableau, or Excel**.
+  - **JSON format** (`execution_logs/execution_log.json`) for structured analysis.
 
 ---
 

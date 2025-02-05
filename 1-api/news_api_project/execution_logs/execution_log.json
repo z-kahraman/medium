@@ -1,0 +1,52 @@
+[
+    {
+        "date": "2025-02-05",
+        "timestamp": "2025-02-05_15-28-42-513088",
+        "api_time": 0.6809,
+        "json_time": 0.0001,
+        "txt_time": 0.0005,
+        "df_time": 0.0005,
+        "excel_time": 0.0848,
+        "total_time": 0.7669
+    },
+    {
+        "date": "2025-02-05",
+        "timestamp": "2025-02-05_15-28-50-254381",
+        "api_time": 0.7233,
+        "json_time": 0.0003,
+        "txt_time": 0.0012,
+        "df_time": 0.0011,
+        "excel_time": 0.1214,
+        "total_time": 0.8474
+    },
+    {
+        "date": "2025-02-05",
+        "timestamp": "2025-02-05_15-29-14-811804",
+        "api_time": 0.6765,
+        "json_time": 0.0003,
+        "txt_time": 0.0018,
+        "df_time": 0.0007,
+        "excel_time": 0.1191,
+        "total_time": 0.7986
+    },
+    {
+        "date": "2025-02-05",
+        "timestamp": "2025-02-05_15-29-28-853744",
+        "api_time": 0.1634,
+        "json_time": 0.0003,
+        "txt_time": 0.0013,
+        "df_time": 0.0011,
+        "excel_time": 0.0816,
+        "total_time": 0.248
+    },
+    {
+        "date": "2025-02-05",
+        "timestamp": "2025-02-05_15-29-30-177585",
+        "api_time": 0.1656,
+        "json_time": 0.0001,
+        "txt_time": 0.0004,
+        "df_time": 0.0004,
+        "excel_time": 0.0868,
+        "total_time": 0.2534
+    }
+]

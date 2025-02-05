@@ -1,68 +1,126 @@
 import requests
 import pandas as pd
 import os
-from dotenv import load_dotenv
 import json
+import time
+import csv
+from dotenv import load_dotenv
 from datetime import datetime
 
-# .env dosyasını yükle / Load environment variables from .env file
+# Load environment variables
 load_dotenv()
-
-# API anahtarını al / Get API Key
 API_KEY = os.getenv("NEWS_API_KEY")
 
-# API anahtarı yoksa hata ver / Raise an error if API Key is missing
 if not API_KEY:
-    raise ValueError("ERROR: API anahtarı bulunamadı! Lütfen .env dosyanı kontrol et. / API key not found! Please check your .env file.")
+    raise ValueError("ERROR: API key not found! Please check your .env file.")
 
-# Günün tarih ve saat bilgisini al / Get current date and time (YYYY-MM-DD_HH-MM format)
-current_time = datetime.now().strftime('%Y-%m-%d_%H-%M')
+# Get a unique timestamp with seconds and milliseconds
+current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')  # Ensures uniqueness
+current_date = datetime.now().strftime('%Y-%m-%d')
 
-# Kaydedilecek klasör / Folder to store the data
+# Define output folders
 output_folder = "data/"
-os.makedirs(output_folder, exist_ok=True)  # Klasör yoksa oluştur / Create folder if it doesn't exist
+log_folder = "execution_logs/"  # New folder for logs
 
-# Dosya isimleri (Tarih + Saat + Dakika) / File names (Date + Hour + Minute)
+# Ensure directories exist
+os.makedirs(output_folder, exist_ok=True)
+os.makedirs(log_folder, exist_ok=True)  # Create execution_logs folder if not exists
+
+# Define log file paths inside execution_logs/
+log_file_csv = os.path.join(log_folder, "execution_log.csv")
+log_file_json = os.path.join(log_folder, "execution_log.json")
+
+# Define output file paths for news data
 output_txt_path = os.path.join(output_folder, f"news_api_response_{current_time}.txt")
 output_excel_path = os.path.join(output_folder, f"news_data_{current_time}.xlsx")
 
-# NewsAPI URL'si (En son haberleri çekiyoruz) / API URL to fetch latest news
+# Start tracking time
+start_time = time.time()
+
+# ✅ 1️⃣ Measure API Request Time
+api_start = time.time()
 url = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEY}"
-
-# API isteğini yap / Make API request
 response = requests.get(url)
+api_end = time.time()
+api_time = round(api_end - api_start, 4)
+print(f"⏱ API Request Time: {api_time} seconds")
 
+# ✅ 2️⃣ Measure JSON Processing Time
+json_start = time.time()
 if response.status_code == 200:
-    # API'den gelen JSON verisini al / Get JSON data from API response
     data = response.json()
-
-    # ✅ 1️⃣ JSON yanıtını dosyaya kaydet / Save raw JSON response to a text file
-    with open(output_txt_path, "w", encoding="utf-8") as txt_file:
-        json.dump(data, txt_file, indent=4, ensure_ascii=False)
-    
-    print(f"✅ API yanıtı '{output_txt_path}' dosyasına kaydedildi. \n✅ API response saved to '{output_txt_path}'.")
-
-    # ✅ 2️⃣ Haberleri işle ve Excel'e kaydet / Process news data and save to Excel
-    articles = data.get("articles", [])
-
-    # DataFrame oluştur / Create DataFrame
-    df = pd.DataFrame(articles)
-
-    # Eğer hiç haber yoksa çıkış yap / Exit if no news found
-    if df.empty:
-        print("⚠️ API başarılı çalıştı ama haber bulunamadı! \n⚠️  API request was successful but no news found!")
-        exit()
-
-    # Gerekli sütunları seç / Select relevant columns
-    df = df[["source", "author", "title", "description", "url", "publishedAt"]]
-
-    # 'source' sütunu içindeki 'name' değerini çıkar / Extract 'name' field from 'source' column
-    df["source"] = df["source"].apply(lambda x: x["name"] if isinstance(x, dict) else x)
-
-    # ✅ 3️⃣ Excel dosyasına kaydet / Save to Excel file
-    df.to_excel(output_excel_path, index=False)
-
-    print(f"✅ Veri başarıyla '{output_excel_path}' dosyasına kaydedildi! Toplam haber sayısı: {len(df)} \n✅ Data successfully saved to '{output_excel_path}'! Total news articles: {len(df)}")
-
 else:
-    print(f"❌ API isteği başarısız! Status: {response.status_code} \n API request failed! Status: {response.status_code}")
+    print(f"❌ API request failed! Status: {response.status_code}")
+    exit()
+json_end = time.time()
+json_time = round(json_end - json_start, 4)
+print(f"⏱ JSON Processing Time: {json_time} seconds")
+
+# ✅ 3️⃣ Measure Saving Raw Data to TXT Time
+txt_start = time.time()
+with open(output_txt_path, "w", encoding="utf-8") as txt_file:
+    json.dump(data, txt_file, indent=4, ensure_ascii=False)
+txt_end = time.time()
+txt_time = round(txt_end - txt_start, 4)
+print(f"⏱ TXT File Writing Time: {txt_time} seconds")
+
+# ✅ 4️⃣ Measure DataFrame Creation Time
+df_start = time.time()
+articles = data.get("articles", [])
+df = pd.DataFrame(articles)
+df_end = time.time()
+df_time = round(df_end - df_start, 4)
+print(f"⏱ DataFrame Creation Time: {df_time} seconds")
+
+# ✅ 5️⃣ Measure Processing & Saving to Excel Time
+excel_start = time.time()
+if not df.empty:
+    df = df[["source", "author", "title", "description", "url", "publishedAt"]]
+    df["source"] = df["source"].apply(lambda x: x["name"] if isinstance(x, dict) else x)
+    df.to_excel(output_excel_path, index=False)
+excel_end = time.time()
+excel_time = round(excel_end - excel_start, 4)
+print(f"⏱ Excel File Writing Time: {excel_time} seconds")
+
+# ✅ Total Execution Time
+end_time = time.time()
+total_time = round(end_time - start_time, 4)
+print(f"🚀 Total Execution Time: {total_time} seconds")
+
+# ✅ Log Data for BI Tool with Unique Timestamp
+log_data = {
+    "date": current_date,
+    "timestamp": current_time,  # Now includes seconds & milliseconds
+    "api_time": api_time,
+    "json_time": json_time,
+    "txt_time": txt_time,
+    "df_time": df_time,
+    "excel_time": excel_time,
+    "total_time": total_time
+}
+
+# ✅ 6️⃣ Save Logs to CSV Inside `execution_logs/`
+csv_headers = ["date", "timestamp", "api_time", "json_time", "txt_time", "df_time", "excel_time", "total_time"]
+file_exists = os.path.isfile(log_file_csv)
+
+with open(log_file_csv, mode="a", newline="") as file:
+    writer = csv.DictWriter(file, fieldnames=csv_headers)
+    if not file_exists:
+        writer.writeheader()
+    writer.writerow(log_data)
+
+print(f"✅ Execution log saved to {log_file_csv}")
+
+# ✅ 7️⃣ Save Logs to JSON Inside `execution_logs/`
+if os.path.exists(log_file_json):
+    with open(log_file_json, "r", encoding="utf-8") as json_file:
+        existing_data = json.load(json_file)
+else:
+    existing_data = []
+
+existing_data.append(log_data)
+
+with open(log_file_json, "w", encoding="utf-8") as json_file:
+    json.dump(existing_data, json_file, indent=4)
+
+print(f"✅ Execution log saved to {log_file_json}")
