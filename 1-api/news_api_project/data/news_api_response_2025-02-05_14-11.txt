@@ -1,0 +1,253 @@
+{
+    "status": "ok",
+    "totalResults": 36,
+    "articles": [
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "AAMER MADHANI, TIA GOLDENBERG",
+            "title": "Trump and Netanyahu hold talks as US president warns 'no guarantees' fragile peace in Gaza will hold - The Associated Press",
+            "description": "Donald Trump and Benjamin Netanyahu are set to meet for talks in Washington. Tuesday's White House meeting comes as the Israeli prime minister faces competing pressure from his right-wing coalition to end a temporary truce and resume the war against Hamas mil…",
+            "url": "https://apnews.com/article/trump-netanyahu-washington-ceasefire-1c8deec4dd46177e08e07d669d595ed3",
+            "urlToImage": "https://dims.apnews.com/dims4/default/10c0012/2147483647/strip/true/crop/3561x2003+0+185/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F1a%2F73%2F261701097e5bf920278eb42123cf%2F82252b5244164906b2302c8f396c5940",
+            "publishedAt": "2025-02-04T06:43:00Z",
+            "content": "WASHINGTON (AP) President Donald Trump and Benjamin Netanyahu are set to meet Tuesday as the Israeli prime minister faces competing pressure from his right-wing coalition to end a temporary truce aga… [+6713 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hollywood Reporter"
+            },
+            "author": "Scott Feinberg",
+            "title": "How Emilia Pérez Is Being Removed from the ‘Emilia Pérez’ Oscar Campaign - Hollywood Reporter",
+            "description": "The Hollywood Reporter has learned that the film's embattled best actress Oscar nominee Karla Sofía Gascon will no longer be coming to the U.S. for any of this week's many awards activities.",
+            "url": "http://www.hollywoodreporter.com/movies/movie-news/karla-sofia-gascon-removed-from-emilia-perez-oscar-campaign-1236126616/",
+            "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/01/7Y7A7223_R-H-2025.jpg?w=1296&h=730&crop=1",
+            "publishedAt": "2025-02-04T06:18:28Z",
+            "content": "This week, Emilia Pérez best actress Oscar nominee Karla Sofía Gascón was expected to fly in to Los Angeles from her home in Spain for a busy week awards campaigning.\r\nOn Thursday, Feb. 6, she was to… [+4298 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Ruxandra Iordache",
+            "title": "Swiss giant UBS posts $770 million in net profit, launches $1 billion share buyback in first half - CNBC",
+            "description": "UBS revealed plans for up to $3 billion of share repurchases over the course of 2025.",
+            "url": "https://www.cnbc.com/2025/02/04/ubs-earnings-q4-2024.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107294276-1693459645847-gettyimages-1633861867-AFP_33TZ7P6.jpeg?v=1738650508&w=1920&h=1080",
+            "publishedAt": "2025-02-04T05:58:28Z",
+            "content": "Swiss banking giant UBS on Tuesday posted $770 million in fourth-quarter net profit, launching a $1 billion share buyback program in the first half of 2025.\r\nThe net profit figure compares with a mea… [+2895 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "MATTHEW LEE, JUAN ZAMORANO",
+            "title": "Rubio says El Salvador offers to accept deportees from US of any nationality, including Americans - The Associated Press",
+            "description": "U.S. Secretary of State Marco Rubio says El Salvador’s president has offered to accept deportees from the U.S. of any nationality, including violent American criminals now imprisoned in the United States. Rubio says President Nayib Bukele “has agreed to the m…",
+            "url": "https://apnews.com/article/migration-rubio-panama-colombia-venezuela-237f06b7d4bdd9ff1396baf9c45a2c0b",
+            "urlToImage": "https://dims.apnews.com/dims4/default/d6ecf03/2147483647/strip/true/crop/7013x3945+0+365/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F81%2F3d%2F7a52114ef930134f0f812b14f520%2Faf4512a52b9348038c007b834e0381fa",
+            "publishedAt": "2025-02-04T05:56:00Z",
+            "content": "SAN SALVADOR, El Salvador (AP) U.S. Secretary of State Marco Rubio said late Monday that El Salvadors president has offered to accept deportees from the U.S. of any nationality, including violent Ame… [+7818 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Heat.com"
+            },
+            "author": "From NBA.com News Services",
+            "title": "Devin Booker overtakes Walter Davis, becomes Suns' franchise leader in points - NBA.Com",
+            "description": "Suns four-time All-Star Devin Booker surpasses franchise points leader Walter Davis during his 10th season in Phoenix.",
+            "url": "https://www.nba.com/news/devin-booker-overtakes-walter-davis-becomes-suns-franchise-leader-in-points",
+            "urlToImage": "https://cdn.nba.com/manage/2025/02/GettyImages-2197035276-scaled-e1738644922759.jpg",
+            "publishedAt": "2025-02-04T05:02:07Z",
+            "content": "Devin Booker nails a catch-and-shoot 3 to become Suns' all-time scoring leader.\r\nFor the better part of 10 seasons, Devin Booker has been getting bucket after bucket for the Suns, including a franchi… [+785 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "Luka Doncic trade details emerge: Lakers couldn't talk to agent, Danny Ainge was in the dark, per reports - CBS Sports",
+            "description": "Details have been trickling out since the news broke, painting a stunning picture of how the trade materialized",
+            "url": "https://www.cbssports.com/nba/news/luka-doncic-trade-details-emerge-lakers-couldnt-talk-to-agent-danny-ainge-was-in-the-dark-per-reports/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2025/02/04/3d795502-2f90-4a8f-b8e5-62d7673b27bc/thumbnail/1200x675/a52591ed889f24682f03f125d09c6733/luka-usatsi.png",
+            "publishedAt": "2025-02-04T03:18:00Z",
+            "content": "When the Luka Doncictrade news broke and everyone assumed ESPN's Shams Charania's had been hacked (even Shams himself initially thought his phone was hacked when he got the scoop), everyone across th… [+4916 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "POLITICO.eu"
+            },
+            "author": "Jacopo Barigazzi",
+            "title": "EU leaders deflect Trump on Greenland and on tariffs - POLITICO Europe",
+            "description": "EU leaders are looking for a way to keep Trump from invading the Danish territory.",
+            "url": "https://www.politico.eu/article/europe-leaders-us-donald-trump-greenland-affairs-buying-trade-war-china-mexico-military-force/",
+            "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2025/02/04/GettyImages-2192274023-scaled.jpg",
+            "publishedAt": "2025-02-04T03:00:00Z",
+            "content": "\"When targeted, unfairly or arbitrarily, the European Union will respond firmly,\" she said.\r\nPolish Prime Minister Donald Tusk also weighed in: We have to do everything to avoid this totally unnecess… [+906 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Arrowhead Pride"
+            },
+            "author": "Jared Sapp",
+            "title": "Chiefs appear at Super Bowl LIX’s opening night - Arrowhead Pride",
+            "description": "We’re keeping you up to date with what’s happening as Kansas City meets with the press in New Orleans.",
+            "url": "https://www.arrowheadpride.com/2025/2/3/24358272/chiefs-appear-at-super-bowl-lixs-opening-night",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/74eFXyjCqFGC7ENxzVF8RJmbLJA=/0x59:7729x4106/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25858627/1981171939.jpg",
+            "publishedAt": "2025-02-04T02:03:56Z",
+            "content": "On Monday night, the Kansas City Chiefs and the Philadelphia Eagles begin their interactions with the worlds media leading up to Super Bowl LIX, which will take place this Sunday evening at the Caesa… [+2806 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool"
+            },
+            "author": "Bram Berkowitz",
+            "title": "Nvidia Calls China's DeepSeek an \"Excellent AI Advancement\": Should Investors Press the Buy Button? - The Motley Fool",
+            "description": "",
+            "url": "https://www.fool.com/investing/2025/02/03/nvidia-says-chinas-deepseek-is-excellent-ai-advanc/",
+            "urlToImage": "https://g.foolcdn.com/editorial/images/805560/people-looking-at-tablet.jpg",
+            "publishedAt": "2025-02-04T02:03:00Z",
+            "content": "One might think that artificial intelligence (AI) chip king Nvidia(NVDA -2.84%) might not be so pleased with the Chinese company DeepSeek, considering that news of DeepSeek's achievement in the AI sp… [+4174 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "State.gov"
+            },
+            "author": null,
+            "title": "Secretary Marco Rubio with Rich Edson of Fox News - Department of State",
+            "description": "SECRETARY RUBIO: My hope ultimately is that we can get back to a point where that canal is what it was meant to be, which is a place for the United States and Panama working in partnership, it’s free for every – it’s open for everyone, and that no foreign pow…",
+            "url": "https://www.state.gov/secretary-marco-rubio-with-rich-edson-of-fox-news/",
+            "urlToImage": "https://www.state.gov/wp-content/uploads/2025/01/S_Release.png",
+            "publishedAt": "2025-02-04T01:51:36Z",
+            "content": "SECRETARY RUBIO: My hope ultimately is that we can get back to a point where that canal is what it was meant to be, which is a place for the United States and Panama working in partnership, its free … [+6120 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Gene Maddaus",
+            "title": "Neil Gaiman and Wife Sued for Rape and Human Trafficking of Babysitter - Variety",
+            "description": "Neil Gaiman, the prolific author of 'The Sandman' and other works, was accused in a lawsuit Monday of violent sexual abuse of a babysitter.",
+            "url": "https://variety.com/2025/tv/news/neil-gaiman-amanda-palmer-sued-for-rape-human-trafficking-babysitter-1236296144/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2025/01/neil-2.jpg?crop=0px%2C6px%2C1000px%2C562px&resize=1000%2C563",
+            "publishedAt": "2025-02-04T01:31:00Z",
+            "content": "Author Neil Gaiman was accused in a lawsuit on Monday of repeatedly raping his former babysitter, repeating allegations that were first raised in a Tortoise Media podcast last year.\r\nScarlett Pavlovi… [+2125 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Thomas Lake",
+            "title": "Despite 20 knife wounds and 11 bruises, Ellen Greenberg’s death was ruled a suicide. The pathologist just changed his mind - CNN",
+            "description": "Ellen Greenberg was found dead in 2011 in her Philadelphia apartment with 20 knife wounds and numerous bruises. Authorities ruled her death a suicide. Fourteen years later, the pathologist who performed her autopsy says he’s changed his mind.",
+            "url": "https://www.cnn.com/2025/02/03/us/ellen-greenberg-philadelphia-case-update-cec/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/copy-beier-cnn-69.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2025-02-04T01:26:00Z",
+            "content": "Fourteen years ago, on a snowy evening in Philadelphia, Ellen Greenberg was found dead on the kitchen floor of her apartment. She had 20 knife wounds and numerous bruises. Authorities ruled her death… [+8225 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Zach Kruse",
+            "title": "Packers seen as one of ‘best team fits’ in potential Myles Garrett trade - Packers Wire",
+            "description": "Myles Garrett wants a trade out of Cleveland, and Eric Edholm of NFL Media sees the Packers as one of the best team fits in a trade.",
+            "url": "https://packerswire.usatoday.com/2025/02/03/packers-seen-as-one-of-best-team-fits-in-potential-myles-garrett-trade/",
+            "urlToImage": "https://packerswire.usatoday.com/wp-content/uploads/sites/57/2025/02/USATSI_24994811.jpg?w=1024&h=576&crop=1",
+            "publishedAt": "2025-02-04T00:15:00Z",
+            "content": "Cleveland Browns edge rusher Myles Garrett, a six-time All-Pro, officially requested a trade on Monday. The NFL’s Defensive Player of the Year in 2023, and a top candidate to win the award again in 2… [+2437 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BleepingComputer"
+            },
+            "author": "Lawrence Abrams",
+            "title": "First Apple-notarized porn app available to iPhone users in Europe - BleepingComputer",
+            "description": "The first Apple-notarized porn app, \"Hot Tub,\" is now available to iPhone users in Europe through the alternative app marketplace, AltStore PAL.",
+            "url": "https://www.bleepingcomputer.com/news/apple/first-apple-notarized-porn-app-available-to-iphone-users-in-europe/",
+            "urlToImage": "https://www.bleepstatic.com/content/hl-images/2024/06/10/apple-iphone.jpg",
+            "publishedAt": "2025-02-04T00:11:02Z",
+            "content": "Update: Added statement from Apple below.\r\nThe first Apple-notarized porn app, \"Hot Tub,\" is now available to iPhone users in Europe through the alternative app marketplace, AltStore PAL.\r\nApple does… [+2756 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": "Sabrina Willmer",
+            "title": "Treasury, Bessent Sued Over Giving Access to Musk’s ‘DOGE’ Team - Bloomberg",
+            "description": "The Treasury Department was accused of breaking federal law by giving Elon Musk’s team of government efficiency enforcers access to a trove of personal and financial information — setting up a legal showdown over the Trump administration’s signature effort to…",
+            "url": "https://www.bloomberg.com/news/articles/2025-02-04/treasury-bessent-sued-over-giving-access-to-musk-s-doge-team",
+            "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ioqY6X1MEMSw/v1/1200x800.jpg",
+            "publishedAt": "2025-02-04T00:07:00Z",
+            "content": "The Treasury Department was accused of breaking federal law by giving Elon Musks team of government efficiency enforcers access to a trove of personal and financial information setting up a legal sho… [+445 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "MATTHEW DALY",
+            "title": "Senate confirms fossil fuel CEO Chris Wright as energy secretary. He vows to 'unleash' US resources - The Associated Press",
+            "description": "The Senate has confirmed fossil fuel executive Chris Wright to serve as energy secretary, a key post to promote President Donald Trump’s efforts to achieve U.S. “energy dominance” in the global market. Wright, CEO of Denver-based Liberty Energy, has been one …",
+            "url": "https://apnews.com/article/trump-energy-wright-climate-nuclear-00e8e540be8b61498ca87740c327eb22",
+            "urlToImage": "https://dims.apnews.com/dims4/default/16080fe/2147483647/strip/true/crop/6192x3483+0+323/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F35%2Fdc%2F5d1bf46c2866658fdb69d17a5cb1%2Fd66b9c210f15447c8874860f1e400dfb",
+            "publishedAt": "2025-02-04T00:05:00Z",
+            "content": "WASHINGTON (AP) The Senate on Monday confirmed fossil fuel executive Chris Wright to serve as energy secretary, a key post to promote President Donald Trumps efforts to achieve U.S. energy dominance … [+4802 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rolling Stone"
+            },
+            "author": "Mankaprr Conteh",
+            "title": "Beyoncé’s First AOTY Win Confirms She Was Always Too Black for the Grammys - Rolling Stone",
+            "description": "Beyoncé has waited 15 years to win the Album of the Year Grammy award. That is unforgivable",
+            "url": "http://www.rollingstone.com/music/music-features/beyonces-first-aoty-win-bittersweet-1235255872/",
+            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/02/beyonce-win-bittersweet.jpg?w=1600&h=900&crop=1",
+            "publishedAt": "2025-02-04T00:00:00Z",
+            "content": "After four turns of being denied Album of the Year at the Grammys—losses that said four blockbuster albums (two of which spawned their own films), four legendary world tours, two Super Bowl performan… [+6553 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Shannon Osaka",
+            "title": "Our brains are filling with more and more microplastics, study shows - The Washington Post",
+            "description": "A new study shows that microplastics are making their way into our brains, and that their concentrations are rising.",
+            "url": "https://www.washingtonpost.com/climate-environment/2025/02/03/microplastics-human-brain-increase/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5FBB4GMYMEJVCUOZFZZ3QLUJBQ_size-normalized.jpg&w=1440",
+            "publishedAt": "2025-02-04T00:00:00Z",
+            "content": "A new study shows that microplastics are making their way into human brains with potentially dangerous effects onpeoples health andmental acuity.\r\nA paper published Monday in Nature Medicine found th… [+6386 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Trump says sovereign wealth fund could buy TikTok - BBC.com",
+            "description": "The president has kickstarted the creation of a national fund, which he says could buy the social media platform.",
+            "url": "https://www.bbc.com/news/articles/cvgm81x2d3ko",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/527c/live/8cc71930-e289-11ef-b364-61a0d90e83b4.jpg",
+            "publishedAt": "2025-02-03T23:52:00Z",
+            "content": "Lucy Hooker\r\nUS President Donald Trump has taken the first step towards setting up a sovereign wealth fund for the United States, and suggested that it could end up buying TikTok.\r\nThe president sign… [+2333 chars]"
+        }
+    ]
+}
