@@ -28,6 +28,56 @@ python fetch_news.py
 
 ---
 
+## ⚙️ Automating with Cron Job
+
+### 📌 What is a Cron Job?
+A **cron job** is a scheduled task in Unix-based systems that runs automatically at specified intervals. In this project, we use a cron job to **fetch news data periodically** without manual execution.
+
+### 🔹 How the Cron Job Works
+- The script `fetch_news.py` fetches the latest news from the API.
+- The cron job **automatically runs this script** at scheduled intervals.
+- The output is saved to `execution_logs/cron_log.txt` for debugging and tracking.
+
+### 🛠 Setting up the Cron Job
+To automate the script execution, follow these steps:
+
+1️⃣ **Open the cron job editor:**
+```bash
+crontab -e
+```
+
+2️⃣ **Add the following line to schedule the script:**
+```bash
+0 * * * * /usr/bin/python3 /path/to/news_api_project/fetch_news.py >> /path/to/execution_logs/cron_log.txt 2>&1
+```
+### **📌 Explanation of the Cron Schedule:**
+| Field         | Value | Meaning |
+|--------------|-------|---------|
+| Minute       | `0`   | Runs at the start of every hour |
+| Hour         | `*`   | Runs every hour |
+| Day of Month | `*`   | Runs every day of the month |
+| Month        | `*`   | Runs every month |
+| Day of Week  | `*`   | Runs on all days of the week |
+
+### 🔄 Running the Cron Job Manually
+If you want to test it immediately without waiting, run:
+```bash
+python fetch_news.py
+```
+
+### 🛠 Checking if the Cron Job is Running
+To see active cron jobs, use:
+```bash
+crontab -l
+```
+
+To check logs for errors:
+```bash
+cat /path/to/execution_logs/cron_log.txt
+```
+
+---
+
 ## 📂 Project Structure
 ```md
 news_api_project/

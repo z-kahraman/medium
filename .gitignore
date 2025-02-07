@@ -3,16 +3,23 @@
 
 # Ignore data folder (optional)
 1-api/news_api_project/data/*.xlsx
+1-api/news_api_project/data/*.txt
+1-api/news_api_project/data/*.csv
+1-api/news_api_project/execution_logs/*.txt
+1-api/news_api_project/execution_logs/*.json
+1-api/news_api_project/execution_logs/*.csv
+
 
 # Ignore Python cache files
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
 # Ignore system files (Mac & Windows)
 .DS_Store
 Thumbs.db
 
-# Ignore logs (optional)
+# Ignore logs and temporary files
 *.log
-
+*.tmp

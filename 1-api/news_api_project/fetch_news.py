@@ -7,34 +7,39 @@ import csv
 from dotenv import load_dotenv
 from datetime import datetime
 
-# Load environment variables
-load_dotenv()
+# ✅ Define the absolute base path
+BASE_DIR = "/home/thinkpad/Documents/Medium/1-api/news_api_project"  # <-- Change this to your project folder
+
+# ✅ Load environment variables with an absolute path
+env_path = os.path.join(BASE_DIR, ".env")
+load_dotenv(env_path)
+
 API_KEY = os.getenv("NEWS_API_KEY")
 
 if not API_KEY:
     raise ValueError("ERROR: API key not found! Please check your .env file.")
 
-# Get a unique timestamp with seconds and milliseconds
-current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')  # Ensures uniqueness
+# ✅ Get a unique timestamp with seconds and milliseconds
+current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')  
 current_date = datetime.now().strftime('%Y-%m-%d')
 
-# Define output folders
-output_folder = "data/"
-log_folder = "execution_logs/"  # New folder for logs
+# ✅ Define absolute output folders
+output_folder = os.path.join(BASE_DIR, "data")
+log_folder = os.path.join(BASE_DIR, "execution_logs")
 
-# Ensure directories exist
+# ✅ Ensure directories exist
 os.makedirs(output_folder, exist_ok=True)
-os.makedirs(log_folder, exist_ok=True)  # Create execution_logs folder if not exists
+os.makedirs(log_folder, exist_ok=True)
 
-# Define log file paths inside execution_logs/
+# ✅ Define absolute log file paths
 log_file_csv = os.path.join(log_folder, "execution_log.csv")
 log_file_json = os.path.join(log_folder, "execution_log.json")
 
-# Define output file paths for news data
+# ✅ Define absolute output file paths for news data
 output_txt_path = os.path.join(output_folder, f"news_api_response_{current_time}.txt")
 output_excel_path = os.path.join(output_folder, f"news_data_{current_time}.xlsx")
 
-# Start tracking time
+# ✅ Start tracking time
 start_time = time.time()
 
 # ✅ 1️⃣ Measure API Request Time
@@ -90,7 +95,7 @@ print(f"🚀 Total Execution Time: {total_time} seconds")
 # ✅ Log Data for BI Tool with Unique Timestamp
 log_data = {
     "date": current_date,
-    "timestamp": current_time,  # Now includes seconds & milliseconds
+    "timestamp": current_time,  
     "api_time": api_time,
     "json_time": json_time,
     "txt_time": txt_time,
