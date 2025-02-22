@@ -1,0 +1,1554 @@
+[
+    {
+        "name": "Grenada",
+        "official_name": "Grenada",
+        "region": "Americas",
+        "population": 112519,
+        "currencies": "XCD",
+        "population_density": 327.09
+    },
+    {
+        "name": "Switzerland",
+        "official_name": "Swiss Confederation",
+        "region": "Europe",
+        "population": 8654622,
+        "currencies": "CHF",
+        "population_density": 209.64
+    },
+    {
+        "name": "Sierra Leone",
+        "official_name": "Republic of Sierra Leone",
+        "region": "Africa",
+        "population": 7976985,
+        "currencies": "SLL",
+        "population_density": 111.19
+    },
+    {
+        "name": "Hungary",
+        "official_name": "Hungary",
+        "region": "Europe",
+        "population": 9749763,
+        "currencies": "HUF",
+        "population_density": 104.8
+    },
+    {
+        "name": "Barbados",
+        "official_name": "Barbados",
+        "region": "Americas",
+        "population": 287371,
+        "currencies": "BBD",
+        "population_density": 668.3
+    },
+    {
+        "name": "Ivory Coast",
+        "official_name": "Republic of Côte d'Ivoire",
+        "region": "Africa",
+        "population": 26378275,
+        "currencies": "XOF",
+        "population_density": 81.8
+    },
+    {
+        "name": "Tunisia",
+        "official_name": "Tunisian Republic",
+        "region": "Africa",
+        "population": 11818618,
+        "currencies": "TND",
+        "population_density": 72.24
+    },
+    {
+        "name": "Italy",
+        "official_name": "Italian Republic",
+        "region": "Europe",
+        "population": 59554023,
+        "currencies": "EUR",
+        "population_density": 197.63
+    },
+    {
+        "name": "Benin",
+        "official_name": "Republic of Benin",
+        "region": "Africa",
+        "population": 12123198,
+        "currencies": "XOF",
+        "population_density": 107.65
+    },
+    {
+        "name": "Indonesia",
+        "official_name": "Republic of Indonesia",
+        "region": "Asia",
+        "population": 273523621,
+        "currencies": "IDR",
+        "population_density": 143.61
+    },
+    {
+        "name": "Cape Verde",
+        "official_name": "Republic of Cabo Verde",
+        "region": "Africa",
+        "population": 555988,
+        "currencies": "CVE",
+        "population_density": 137.86
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "official_name": "Federation of Saint Christopher and Nevis",
+        "region": "Americas",
+        "population": 53192,
+        "currencies": "XCD",
+        "population_density": 203.8
+    },
+    {
+        "name": "Laos",
+        "official_name": "Lao People's Democratic Republic",
+        "region": "Asia",
+        "population": 7275556,
+        "currencies": "LAK",
+        "population_density": 30.72
+    },
+    {
+        "name": "Uganda",
+        "official_name": "Republic of Uganda",
+        "region": "Africa",
+        "population": 45741000,
+        "currencies": "UGX",
+        "population_density": 189.36
+    },
+    {
+        "name": "Andorra",
+        "official_name": "Principality of Andorra",
+        "region": "Europe",
+        "population": 77265,
+        "currencies": "EUR",
+        "population_density": 165.1
+    },
+    {
+        "name": "Burundi",
+        "official_name": "Republic of Burundi",
+        "region": "Africa",
+        "population": 11890781,
+        "currencies": "BIF",
+        "population_density": 427.2
+    },
+    {
+        "name": "South Africa",
+        "official_name": "Republic of South Africa",
+        "region": "Africa",
+        "population": 59308690,
+        "currencies": "ZAR",
+        "population_density": 48.57
+    },
+    {
+        "name": "France",
+        "official_name": "French Republic",
+        "region": "Europe",
+        "population": 67391582,
+        "currencies": "EUR",
+        "population_density": 122.15
+    },
+    {
+        "name": "Libya",
+        "official_name": "State of Libya",
+        "region": "Africa",
+        "population": 6871287,
+        "currencies": "LYD",
+        "population_density": 3.91
+    },
+    {
+        "name": "Mexico",
+        "official_name": "United Mexican States",
+        "region": "Americas",
+        "population": 128932753,
+        "currencies": "MXN",
+        "population_density": 65.64
+    },
+    {
+        "name": "Gabon",
+        "official_name": "Gabonese Republic",
+        "region": "Africa",
+        "population": 2225728,
+        "currencies": "XAF",
+        "population_density": 8.32
+    },
+    {
+        "name": "North Macedonia",
+        "official_name": "Republic of North Macedonia",
+        "region": "Europe",
+        "population": 2077132,
+        "currencies": "MKD",
+        "population_density": 80.78
+    },
+    {
+        "name": "China",
+        "official_name": "People's Republic of China",
+        "region": "Asia",
+        "population": 1402112000,
+        "currencies": "CNY",
+        "population_density": 144.44
+    },
+    {
+        "name": "Yemen",
+        "official_name": "Republic of Yemen",
+        "region": "Asia",
+        "population": 29825968,
+        "currencies": "YER",
+        "population_density": 56.49
+    },
+    {
+        "name": "Solomon Islands",
+        "official_name": "Solomon Islands",
+        "region": "Oceania",
+        "population": 686878,
+        "currencies": "SBD",
+        "population_density": 23.77
+    },
+    {
+        "name": "Uzbekistan",
+        "official_name": "Republic of Uzbekistan",
+        "region": "Asia",
+        "population": 34232050,
+        "currencies": "UZS",
+        "population_density": 76.51
+    },
+    {
+        "name": "Egypt",
+        "official_name": "Arab Republic of Egypt",
+        "region": "Africa",
+        "population": 102334403,
+        "currencies": "EGP",
+        "population_density": 102.08
+    },
+    {
+        "name": "Senegal",
+        "official_name": "Republic of Senegal",
+        "region": "Africa",
+        "population": 16743930,
+        "currencies": "XOF",
+        "population_density": 85.11
+    },
+    {
+        "name": "Sri Lanka",
+        "official_name": "Democratic Socialist Republic of Sri Lanka",
+        "region": "Asia",
+        "population": 21919000,
+        "currencies": "LKR",
+        "population_density": 334.08
+    },
+    {
+        "name": "Bangladesh",
+        "official_name": "People's Republic of Bangladesh",
+        "region": "Asia",
+        "population": 164689383,
+        "currencies": "BDT",
+        "population_density": 1116.01
+    },
+    {
+        "name": "Peru",
+        "official_name": "Republic of Peru",
+        "region": "Americas",
+        "population": 32971846,
+        "currencies": "PEN",
+        "population_density": 25.65
+    },
+    {
+        "name": "Singapore",
+        "official_name": "Republic of Singapore",
+        "region": "Asia",
+        "population": 5685807,
+        "currencies": "SGD",
+        "population_density": 8008.18
+    },
+    {
+        "name": "Turkey",
+        "official_name": "Republic of Turkey",
+        "region": "Asia",
+        "population": 84339067,
+        "currencies": "TRY",
+        "population_density": 107.64
+    },
+    {
+        "name": "Afghanistan",
+        "official_name": "Islamic Republic of Afghanistan",
+        "region": "Asia",
+        "population": 40218234,
+        "currencies": "AFN",
+        "population_density": 61.66
+    },
+    {
+        "name": "United Kingdom",
+        "official_name": "United Kingdom of Great Britain and Northern Ireland",
+        "region": "Europe",
+        "population": 67215293,
+        "currencies": "GBP",
+        "population_density": 276.72
+    },
+    {
+        "name": "Zambia",
+        "official_name": "Republic of Zambia",
+        "region": "Africa",
+        "population": 18383956,
+        "currencies": "ZMW",
+        "population_density": 24.43
+    },
+    {
+        "name": "Finland",
+        "official_name": "Republic of Finland",
+        "region": "Europe",
+        "population": 5530719,
+        "currencies": "EUR",
+        "population_density": 16.34
+    },
+    {
+        "name": "Niger",
+        "official_name": "Republic of Niger",
+        "region": "Africa",
+        "population": 24206636,
+        "currencies": "XOF",
+        "population_density": 19.11
+    },
+    {
+        "name": "Guinea-Bissau",
+        "official_name": "Republic of Guinea-Bissau",
+        "region": "Africa",
+        "population": 1967998,
+        "currencies": "XOF",
+        "population_density": 54.48
+    },
+    {
+        "name": "Azerbaijan",
+        "official_name": "Republic of Azerbaijan",
+        "region": "Asia",
+        "population": 10110116,
+        "currencies": "AZN",
+        "population_density": 116.74
+    },
+    {
+        "name": "Djibouti",
+        "official_name": "Republic of Djibouti",
+        "region": "Africa",
+        "population": 988002,
+        "currencies": "DJF",
+        "population_density": 42.59
+    },
+    {
+        "name": "North Korea",
+        "official_name": "Democratic People's Republic of Korea",
+        "region": "Asia",
+        "population": 25778815,
+        "currencies": "KPW",
+        "population_density": 213.86
+    },
+    {
+        "name": "Mauritius",
+        "official_name": "Republic of Mauritius",
+        "region": "Africa",
+        "population": 1265740,
+        "currencies": "MUR",
+        "population_density": 620.46
+    },
+    {
+        "name": "Colombia",
+        "official_name": "Republic of Colombia",
+        "region": "Americas",
+        "population": 50882884,
+        "currencies": "COP",
+        "population_density": 44.57
+    },
+    {
+        "name": "Greece",
+        "official_name": "Hellenic Republic",
+        "region": "Europe",
+        "population": 10715549,
+        "currencies": "EUR",
+        "population_density": 81.18
+    },
+    {
+        "name": "Croatia",
+        "official_name": "Republic of Croatia",
+        "region": "Europe",
+        "population": 4047200,
+        "currencies": "EUR",
+        "population_density": 71.51
+    },
+    {
+        "name": "Morocco",
+        "official_name": "Kingdom of Morocco",
+        "region": "Africa",
+        "population": 36910558,
+        "currencies": "MAD",
+        "population_density": 82.66
+    },
+    {
+        "name": "Algeria",
+        "official_name": "People's Democratic Republic of Algeria",
+        "region": "Africa",
+        "population": 44700000,
+        "currencies": "DZD",
+        "population_density": 18.77
+    },
+    {
+        "name": "Netherlands",
+        "official_name": "Kingdom of the Netherlands",
+        "region": "Europe",
+        "population": 16655799,
+        "currencies": "EUR",
+        "population_density": 397.99
+    },
+    {
+        "name": "Sudan",
+        "official_name": "Republic of the Sudan",
+        "region": "Africa",
+        "population": 43849269,
+        "currencies": "SDG",
+        "population_density": 23.25
+    },
+    {
+        "name": "Fiji",
+        "official_name": "Republic of Fiji",
+        "region": "Oceania",
+        "population": 896444,
+        "currencies": "FJD",
+        "population_density": 49.06
+    },
+    {
+        "name": "Liechtenstein",
+        "official_name": "Principality of Liechtenstein",
+        "region": "Europe",
+        "population": 38137,
+        "currencies": "CHF",
+        "population_density": 238.36
+    },
+    {
+        "name": "Nepal",
+        "official_name": "Federal Democratic Republic of Nepal",
+        "region": "Asia",
+        "population": 29136808,
+        "currencies": "NPR",
+        "population_density": 197.97
+    },
+    {
+        "name": "Georgia",
+        "official_name": "Georgia",
+        "region": "Asia",
+        "population": 3714000,
+        "currencies": "GEL",
+        "population_density": 53.29
+    },
+    {
+        "name": "Pakistan",
+        "official_name": "Islamic Republic of Pakistan",
+        "region": "Asia",
+        "population": 220892331,
+        "currencies": "PKR",
+        "population_density": 250.47
+    },
+    {
+        "name": "Monaco",
+        "official_name": "Principality of Monaco",
+        "region": "Europe",
+        "population": 39244,
+        "currencies": "EUR",
+        "population_density": 19427.72
+    },
+    {
+        "name": "Botswana",
+        "official_name": "Republic of Botswana",
+        "region": "Africa",
+        "population": 2351625,
+        "currencies": "BWP",
+        "population_density": 4.04
+    },
+    {
+        "name": "Lebanon",
+        "official_name": "Lebanese Republic",
+        "region": "Asia",
+        "population": 6825442,
+        "currencies": "LBP",
+        "population_density": 653.03
+    },
+    {
+        "name": "Papua New Guinea",
+        "official_name": "Independent State of Papua New Guinea",
+        "region": "Oceania",
+        "population": 8947027,
+        "currencies": "PGK",
+        "population_density": 19.33
+    },
+    {
+        "name": "Dominican Republic",
+        "official_name": "Dominican Republic",
+        "region": "Americas",
+        "population": 10847904,
+        "currencies": "DOP",
+        "population_density": 222.88
+    },
+    {
+        "name": "Qatar",
+        "official_name": "State of Qatar",
+        "region": "Asia",
+        "population": 2881060,
+        "currencies": "QAR",
+        "population_density": 248.67
+    },
+    {
+        "name": "Madagascar",
+        "official_name": "Republic of Madagascar",
+        "region": "Africa",
+        "population": 27691019,
+        "currencies": "MGA",
+        "population_density": 47.17
+    },
+    {
+        "name": "India",
+        "official_name": "Republic of India",
+        "region": "Asia",
+        "population": 1380004385,
+        "currencies": "INR",
+        "population_density": 419.76
+    },
+    {
+        "name": "Syria",
+        "official_name": "Syrian Arab Republic",
+        "region": "Asia",
+        "population": 17500657,
+        "currencies": "SYP",
+        "population_density": 94.51
+    },
+    {
+        "name": "Montenegro",
+        "official_name": "Montenegro",
+        "region": "Europe",
+        "population": 621718,
+        "currencies": "EUR",
+        "population_density": 45.01
+    },
+    {
+        "name": "Eswatini",
+        "official_name": "Kingdom of Eswatini",
+        "region": "Africa",
+        "population": 1160164,
+        "currencies": "SZL, ZAR",
+        "population_density": 66.81
+    },
+    {
+        "name": "Paraguay",
+        "official_name": "Republic of Paraguay",
+        "region": "Americas",
+        "population": 7132530,
+        "currencies": "PYG",
+        "population_density": 17.54
+    },
+    {
+        "name": "El Salvador",
+        "official_name": "Republic of El Salvador",
+        "region": "Americas",
+        "population": 6486201,
+        "currencies": "USD",
+        "population_density": 308.26
+    },
+    {
+        "name": "Ukraine",
+        "official_name": "Ukraine",
+        "region": "Europe",
+        "population": 44134693,
+        "currencies": "UAH",
+        "population_density": 73.13
+    },
+    {
+        "name": "Namibia",
+        "official_name": "Republic of Namibia",
+        "region": "Africa",
+        "population": 2540916,
+        "currencies": "NAD, ZAR",
+        "population_density": 3.08
+    },
+    {
+        "name": "United Arab Emirates",
+        "official_name": "United Arab Emirates",
+        "region": "Asia",
+        "population": 9890400,
+        "currencies": "AED",
+        "population_density": 118.31
+    },
+    {
+        "name": "Bulgaria",
+        "official_name": "Republic of Bulgaria",
+        "region": "Europe",
+        "population": 6927288,
+        "currencies": "BGN",
+        "population_density": 62.48
+    },
+    {
+        "name": "Germany",
+        "official_name": "Federal Republic of Germany",
+        "region": "Europe",
+        "population": 83240525,
+        "currencies": "EUR",
+        "population_density": 233.09
+    },
+    {
+        "name": "Cambodia",
+        "official_name": "Kingdom of Cambodia",
+        "region": "Asia",
+        "population": 16718971,
+        "currencies": "KHR, USD",
+        "population_density": 92.35
+    },
+    {
+        "name": "Iraq",
+        "official_name": "Republic of Iraq",
+        "region": "Asia",
+        "population": 40222503,
+        "currencies": "IQD",
+        "population_density": 91.77
+    },
+    {
+        "name": "Sweden",
+        "official_name": "Kingdom of Sweden",
+        "region": "Europe",
+        "population": 10353442,
+        "currencies": "SEK",
+        "population_density": 22.99
+    },
+    {
+        "name": "Cuba",
+        "official_name": "Republic of Cuba",
+        "region": "Americas",
+        "population": 11326616,
+        "currencies": "CUC, CUP",
+        "population_density": 103.08
+    },
+    {
+        "name": "Kyrgyzstan",
+        "official_name": "Kyrgyz Republic",
+        "region": "Asia",
+        "population": 6591600,
+        "currencies": "KGS",
+        "population_density": 32.97
+    },
+    {
+        "name": "Russia",
+        "official_name": "Russian Federation",
+        "region": "Europe",
+        "population": 144104080,
+        "currencies": "RUB",
+        "population_density": 8.43
+    },
+    {
+        "name": "Malaysia",
+        "official_name": "Malaysia",
+        "region": "Asia",
+        "population": 32365998,
+        "currencies": "MYR",
+        "population_density": 97.84
+    },
+    {
+        "name": "São Tomé and Príncipe",
+        "official_name": "Democratic Republic of São Tomé and Príncipe",
+        "region": "Africa",
+        "population": 219161,
+        "currencies": "STN",
+        "population_density": 227.35
+    },
+    {
+        "name": "Cyprus",
+        "official_name": "Republic of Cyprus",
+        "region": "Europe",
+        "population": 1207361,
+        "currencies": "EUR",
+        "population_density": 130.51
+    },
+    {
+        "name": "Canada",
+        "official_name": "Canada",
+        "region": "Americas",
+        "population": 38005238,
+        "currencies": "CAD",
+        "population_density": 3.81
+    },
+    {
+        "name": "Malawi",
+        "official_name": "Republic of Malawi",
+        "region": "Africa",
+        "population": 19129955,
+        "currencies": "MWK",
+        "population_density": 161.46
+    },
+    {
+        "name": "Saudi Arabia",
+        "official_name": "Kingdom of Saudi Arabia",
+        "region": "Asia",
+        "population": 34813867,
+        "currencies": "SAR",
+        "population_density": 16.19
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "official_name": "Bosnia and Herzegovina",
+        "region": "Europe",
+        "population": 3280815,
+        "currencies": "BAM",
+        "population_density": 64.07
+    },
+    {
+        "name": "Ethiopia",
+        "official_name": "Federal Democratic Republic of Ethiopia",
+        "region": "Africa",
+        "population": 114963583,
+        "currencies": "ETB",
+        "population_density": 104.11
+    },
+    {
+        "name": "Spain",
+        "official_name": "Kingdom of Spain",
+        "region": "Europe",
+        "population": 47351567,
+        "currencies": "EUR",
+        "population_density": 93.58
+    },
+    {
+        "name": "Slovenia",
+        "official_name": "Republic of Slovenia",
+        "region": "Europe",
+        "population": 2100126,
+        "currencies": "EUR",
+        "population_density": 103.59
+    },
+    {
+        "name": "Oman",
+        "official_name": "Sultanate of Oman",
+        "region": "Asia",
+        "population": 5106622,
+        "currencies": "OMR",
+        "population_density": 16.5
+    },
+    {
+        "name": "San Marino",
+        "official_name": "Republic of San Marino",
+        "region": "Europe",
+        "population": 33938,
+        "currencies": "EUR",
+        "population_density": 556.36
+    },
+    {
+        "name": "Lesotho",
+        "official_name": "Kingdom of Lesotho",
+        "region": "Africa",
+        "population": 2142252,
+        "currencies": "LSL, ZAR",
+        "population_density": 70.57
+    },
+    {
+        "name": "Marshall Islands",
+        "official_name": "Republic of the Marshall Islands",
+        "region": "Oceania",
+        "population": 59194,
+        "currencies": "USD",
+        "population_density": 327.04
+    },
+    {
+        "name": "Iceland",
+        "official_name": "Iceland",
+        "region": "Europe",
+        "population": 366425,
+        "currencies": "ISK",
+        "population_density": 3.56
+    },
+    {
+        "name": "Luxembourg",
+        "official_name": "Grand Duchy of Luxembourg",
+        "region": "Europe",
+        "population": 632275,
+        "currencies": "EUR",
+        "population_density": 244.5
+    },
+    {
+        "name": "Argentina",
+        "official_name": "Argentine Republic",
+        "region": "Americas",
+        "population": 45376763,
+        "currencies": "ARS",
+        "population_density": 16.32
+    },
+    {
+        "name": "Nauru",
+        "official_name": "Republic of Nauru",
+        "region": "Oceania",
+        "population": 10834,
+        "currencies": "AUD",
+        "population_density": 515.9
+    },
+    {
+        "name": "Dominica",
+        "official_name": "Commonwealth of Dominica",
+        "region": "Americas",
+        "population": 71991,
+        "currencies": "XCD",
+        "population_density": 95.86
+    },
+    {
+        "name": "Costa Rica",
+        "official_name": "Republic of Costa Rica",
+        "region": "Americas",
+        "population": 5094114,
+        "currencies": "CRC",
+        "population_density": 99.69
+    },
+    {
+        "name": "Australia",
+        "official_name": "Commonwealth of Australia",
+        "region": "Oceania",
+        "population": 25687041,
+        "currencies": "AUD",
+        "population_density": 3.34
+    },
+    {
+        "name": "Thailand",
+        "official_name": "Kingdom of Thailand",
+        "region": "Asia",
+        "population": 69799978,
+        "currencies": "THB",
+        "population_density": 136.03
+    },
+    {
+        "name": "Haiti",
+        "official_name": "Republic of Haiti",
+        "region": "Americas",
+        "population": 11402533,
+        "currencies": "HTG",
+        "population_density": 410.9
+    },
+    {
+        "name": "Tuvalu",
+        "official_name": "Tuvalu",
+        "region": "Oceania",
+        "population": 11792,
+        "currencies": "AUD, TVD",
+        "population_density": 453.54
+    },
+    {
+        "name": "Honduras",
+        "official_name": "Republic of Honduras",
+        "region": "Americas",
+        "population": 9904608,
+        "currencies": "HNL",
+        "population_density": 88.05
+    },
+    {
+        "name": "Equatorial Guinea",
+        "official_name": "Republic of Equatorial Guinea",
+        "region": "Africa",
+        "population": 1402985,
+        "currencies": "XAF",
+        "population_density": 50.02
+    },
+    {
+        "name": "Saint Lucia",
+        "official_name": "Saint Lucia",
+        "region": "Americas",
+        "population": 183629,
+        "currencies": "XCD",
+        "population_density": 298.1
+    },
+    {
+        "name": "Belarus",
+        "official_name": "Republic of Belarus",
+        "region": "Europe",
+        "population": 9398861,
+        "currencies": "BYN",
+        "population_density": 45.27
+    },
+    {
+        "name": "Latvia",
+        "official_name": "Republic of Latvia",
+        "region": "Europe",
+        "population": 1901548,
+        "currencies": "EUR",
+        "population_density": 29.45
+    },
+    {
+        "name": "Palau",
+        "official_name": "Republic of Palau",
+        "region": "Oceania",
+        "population": 18092,
+        "currencies": "USD",
+        "population_density": 39.42
+    },
+    {
+        "name": "Philippines",
+        "official_name": "Republic of the Philippines",
+        "region": "Asia",
+        "population": 109581085,
+        "currencies": "PHP",
+        "population_density": 320.08
+    },
+    {
+        "name": "Denmark",
+        "official_name": "Kingdom of Denmark",
+        "region": "Europe",
+        "population": 5831404,
+        "currencies": "DKK",
+        "population_density": 135.32
+    },
+    {
+        "name": "Cameroon",
+        "official_name": "Republic of Cameroon",
+        "region": "Africa",
+        "population": 26545864,
+        "currencies": "XAF",
+        "population_density": 55.83
+    },
+    {
+        "name": "Guinea",
+        "official_name": "Republic of Guinea",
+        "region": "Africa",
+        "population": 13132792,
+        "currencies": "GNF",
+        "population_density": 53.42
+    },
+    {
+        "name": "Bahrain",
+        "official_name": "Kingdom of Bahrain",
+        "region": "Asia",
+        "population": 1701583,
+        "currencies": "BHD",
+        "population_density": 2224.29
+    },
+    {
+        "name": "Suriname",
+        "official_name": "Republic of Suriname",
+        "region": "Americas",
+        "population": 586634,
+        "currencies": "SRD",
+        "population_density": 3.58
+    },
+    {
+        "name": "DR Congo",
+        "official_name": "Democratic Republic of the Congo",
+        "region": "Africa",
+        "population": 108407721,
+        "currencies": "CDF",
+        "population_density": 46.23
+    },
+    {
+        "name": "Somalia",
+        "official_name": "Federal Republic of Somalia",
+        "region": "Africa",
+        "population": 15893219,
+        "currencies": "SOS",
+        "population_density": 24.92
+    },
+    {
+        "name": "Czechia",
+        "official_name": "Czech Republic",
+        "region": "Europe",
+        "population": 10698896,
+        "currencies": "CZK",
+        "population_density": 135.66
+    },
+    {
+        "name": "Vanuatu",
+        "official_name": "Republic of Vanuatu",
+        "region": "Oceania",
+        "population": 307150,
+        "currencies": "VUV",
+        "population_density": 25.2
+    },
+    {
+        "name": "Togo",
+        "official_name": "Togolese Republic",
+        "region": "Africa",
+        "population": 8278737,
+        "currencies": "XOF",
+        "population_density": 145.79
+    },
+    {
+        "name": "Kenya",
+        "official_name": "Republic of Kenya",
+        "region": "Africa",
+        "population": 53771300,
+        "currencies": "KES",
+        "population_density": 92.65
+    },
+    {
+        "name": "Rwanda",
+        "official_name": "Republic of Rwanda",
+        "region": "Africa",
+        "population": 12952209,
+        "currencies": "RWF",
+        "population_density": 491.77
+    },
+    {
+        "name": "Estonia",
+        "official_name": "Republic of Estonia",
+        "region": "Europe",
+        "population": 1331057,
+        "currencies": "EUR",
+        "population_density": 29.43
+    },
+    {
+        "name": "Romania",
+        "official_name": "Romania",
+        "region": "Europe",
+        "population": 19286123,
+        "currencies": "RON",
+        "population_density": 80.9
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "official_name": "Republic of Trinidad and Tobago",
+        "region": "Americas",
+        "population": 1399491,
+        "currencies": "TTD",
+        "population_density": 272.81
+    },
+    {
+        "name": "Guyana",
+        "official_name": "Co-operative Republic of Guyana",
+        "region": "Americas",
+        "population": 786559,
+        "currencies": "GYD",
+        "population_density": 3.66
+    },
+    {
+        "name": "Timor-Leste",
+        "official_name": "Democratic Republic of Timor-Leste",
+        "region": "Asia",
+        "population": 1318442,
+        "currencies": "USD",
+        "population_density": 88.64
+    },
+    {
+        "name": "Vietnam",
+        "official_name": "Socialist Republic of Vietnam",
+        "region": "Asia",
+        "population": 97338583,
+        "currencies": "VND",
+        "population_density": 293.89
+    },
+    {
+        "name": "Uruguay",
+        "official_name": "Oriental Republic of Uruguay",
+        "region": "Americas",
+        "population": 3473727,
+        "currencies": "UYU",
+        "population_density": 19.19
+    },
+    {
+        "name": "Vatican City",
+        "official_name": "Vatican City State",
+        "region": "Europe",
+        "population": 451,
+        "currencies": "EUR",
+        "population_density": 1025.0
+    },
+    {
+        "name": "Austria",
+        "official_name": "Republic of Austria",
+        "region": "Europe",
+        "population": 8917205,
+        "currencies": "EUR",
+        "population_density": 106.32
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "official_name": "Antigua and Barbuda",
+        "region": "Americas",
+        "population": 97928,
+        "currencies": "XCD",
+        "population_density": 221.56
+    },
+    {
+        "name": "Turkmenistan",
+        "official_name": "Turkmenistan",
+        "region": "Asia",
+        "population": 6031187,
+        "currencies": "TMT",
+        "population_density": 12.36
+    },
+    {
+        "name": "Mozambique",
+        "official_name": "Republic of Mozambique",
+        "region": "Africa",
+        "population": 31255435,
+        "currencies": "MZN",
+        "population_density": 38.99
+    },
+    {
+        "name": "Panama",
+        "official_name": "Republic of Panama",
+        "region": "Americas",
+        "population": 4314768,
+        "currencies": "PAB, USD",
+        "population_density": 57.21
+    },
+    {
+        "name": "Micronesia",
+        "official_name": "Federated States of Micronesia",
+        "region": "Oceania",
+        "population": 115021,
+        "currencies": "USD",
+        "population_density": 163.85
+    },
+    {
+        "name": "Ireland",
+        "official_name": "Republic of Ireland",
+        "region": "Europe",
+        "population": 4994724,
+        "currencies": "EUR",
+        "population_density": 71.08
+    },
+    {
+        "name": "Norway",
+        "official_name": "Kingdom of Norway",
+        "region": "Europe",
+        "population": 5379475,
+        "currencies": "NOK",
+        "population_density": 16.61
+    },
+    {
+        "name": "Central African Republic",
+        "official_name": "Central African Republic",
+        "region": "Africa",
+        "population": 4829764,
+        "currencies": "XAF",
+        "population_density": 7.75
+    },
+    {
+        "name": "Burkina Faso",
+        "official_name": "Burkina Faso",
+        "region": "Africa",
+        "population": 20903278,
+        "currencies": "XOF",
+        "population_density": 76.58
+    },
+    {
+        "name": "Eritrea",
+        "official_name": "State of Eritrea",
+        "region": "Africa",
+        "population": 5352000,
+        "currencies": "ERN",
+        "population_density": 45.51
+    },
+    {
+        "name": "Tanzania",
+        "official_name": "United Republic of Tanzania",
+        "region": "Africa",
+        "population": 59734213,
+        "currencies": "TZS",
+        "population_density": 63.2
+    },
+    {
+        "name": "South Korea",
+        "official_name": "Republic of Korea",
+        "region": "Asia",
+        "population": 51780579,
+        "currencies": "KRW",
+        "population_density": 516.72
+    },
+    {
+        "name": "Jordan",
+        "official_name": "Hashemite Kingdom of Jordan",
+        "region": "Asia",
+        "population": 10203140,
+        "currencies": "JOD",
+        "population_density": 114.2
+    },
+    {
+        "name": "Mauritania",
+        "official_name": "Islamic Republic of Mauritania",
+        "region": "Africa",
+        "population": 4649660,
+        "currencies": "MRU",
+        "population_density": 4.51
+    },
+    {
+        "name": "Lithuania",
+        "official_name": "Republic of Lithuania",
+        "region": "Europe",
+        "population": 2794700,
+        "currencies": "EUR",
+        "population_density": 42.8
+    },
+    {
+        "name": "Slovakia",
+        "official_name": "Slovak Republic",
+        "region": "Europe",
+        "population": 5458827,
+        "currencies": "EUR",
+        "population_density": 111.32
+    },
+    {
+        "name": "Angola",
+        "official_name": "Republic of Angola",
+        "region": "Africa",
+        "population": 32866268,
+        "currencies": "AOA",
+        "population_density": 26.36
+    },
+    {
+        "name": "Kazakhstan",
+        "official_name": "Republic of Kazakhstan",
+        "region": "Asia",
+        "population": 18754440,
+        "currencies": "KZT",
+        "population_density": 6.88
+    },
+    {
+        "name": "Moldova",
+        "official_name": "Republic of Moldova",
+        "region": "Europe",
+        "population": 2617820,
+        "currencies": "MDL",
+        "population_density": 77.35
+    },
+    {
+        "name": "Mali",
+        "official_name": "Republic of Mali",
+        "region": "Africa",
+        "population": 20250834,
+        "currencies": "XOF",
+        "population_density": 16.33
+    },
+    {
+        "name": "Armenia",
+        "official_name": "Republic of Armenia",
+        "region": "Asia",
+        "population": 2963234,
+        "currencies": "AMD",
+        "population_density": 99.63
+    },
+    {
+        "name": "Samoa",
+        "official_name": "Independent State of Samoa",
+        "region": "Oceania",
+        "population": 198410,
+        "currencies": "WST",
+        "population_density": 69.81
+    },
+    {
+        "name": "Japan",
+        "official_name": "Japan",
+        "region": "Asia",
+        "population": 125836021,
+        "currencies": "JPY",
+        "population_density": 332.96
+    },
+    {
+        "name": "Bolivia",
+        "official_name": "Plurinational State of Bolivia",
+        "region": "Americas",
+        "population": 11673029,
+        "currencies": "BOB",
+        "population_density": 10.63
+    },
+    {
+        "name": "Chile",
+        "official_name": "Republic of Chile",
+        "region": "Americas",
+        "population": 19116209,
+        "currencies": "CLP",
+        "population_density": 25.28
+    },
+    {
+        "name": "United States",
+        "official_name": "United States of America",
+        "region": "Americas",
+        "population": 329484123,
+        "currencies": "USD",
+        "population_density": 35.15
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "official_name": "Saint Vincent and the Grenadines",
+        "region": "Americas",
+        "population": 110947,
+        "currencies": "XCD",
+        "population_density": 285.21
+    },
+    {
+        "name": "Seychelles",
+        "official_name": "Republic of Seychelles",
+        "region": "Africa",
+        "population": 98462,
+        "currencies": "SCR",
+        "population_density": 217.84
+    },
+    {
+        "name": "Guatemala",
+        "official_name": "Republic of Guatemala",
+        "region": "Americas",
+        "population": 16858333,
+        "currencies": "GTQ",
+        "population_density": 154.82
+    },
+    {
+        "name": "Ecuador",
+        "official_name": "Republic of Ecuador",
+        "region": "Americas",
+        "population": 17643060,
+        "currencies": "USD",
+        "population_density": 63.73
+    },
+    {
+        "name": "Tajikistan",
+        "official_name": "Republic of Tajikistan",
+        "region": "Asia",
+        "population": 9537642,
+        "currencies": "TJS",
+        "population_density": 66.65
+    },
+    {
+        "name": "Malta",
+        "official_name": "Republic of Malta",
+        "region": "Europe",
+        "population": 525285,
+        "currencies": "EUR",
+        "population_density": 1662.29
+    },
+    {
+        "name": "Gambia",
+        "official_name": "Republic of the Gambia",
+        "region": "Africa",
+        "population": 2416664,
+        "currencies": "GMD",
+        "population_density": 226.09
+    },
+    {
+        "name": "Nigeria",
+        "official_name": "Federal Republic of Nigeria",
+        "region": "Africa",
+        "population": 206139587,
+        "currencies": "NGN",
+        "population_density": 223.15
+    },
+    {
+        "name": "Bahamas",
+        "official_name": "Commonwealth of the Bahamas",
+        "region": "Americas",
+        "population": 393248,
+        "currencies": "BSD, USD",
+        "population_density": 28.2
+    },
+    {
+        "name": "Kuwait",
+        "official_name": "State of Kuwait",
+        "region": "Asia",
+        "population": 4270563,
+        "currencies": "KWD",
+        "population_density": 239.68
+    },
+    {
+        "name": "Maldives",
+        "official_name": "Republic of the Maldives",
+        "region": "Asia",
+        "population": 540542,
+        "currencies": "MVR",
+        "population_density": 1801.81
+    },
+    {
+        "name": "South Sudan",
+        "official_name": "Republic of South Sudan",
+        "region": "Africa",
+        "population": 11193729,
+        "currencies": "SSP",
+        "population_density": 18.06
+    },
+    {
+        "name": "Iran",
+        "official_name": "Islamic Republic of Iran",
+        "region": "Asia",
+        "population": 83992953,
+        "currencies": "IRR",
+        "population_density": 50.96
+    },
+    {
+        "name": "Albania",
+        "official_name": "Republic of Albania",
+        "region": "Europe",
+        "population": 2837743,
+        "currencies": "ALL",
+        "population_density": 98.71
+    },
+    {
+        "name": "Brazil",
+        "official_name": "Federative Republic of Brazil",
+        "region": "Americas",
+        "population": 212559409,
+        "currencies": "BRL",
+        "population_density": 24.96
+    },
+    {
+        "name": "Serbia",
+        "official_name": "Republic of Serbia",
+        "region": "Europe",
+        "population": 6908224,
+        "currencies": "RSD",
+        "population_density": 78.18
+    },
+    {
+        "name": "Belize",
+        "official_name": "Belize",
+        "region": "Americas",
+        "population": 397621,
+        "currencies": "BZD",
+        "population_density": 17.31
+    },
+    {
+        "name": "Myanmar",
+        "official_name": "Republic of the Union of Myanmar",
+        "region": "Asia",
+        "population": 54409794,
+        "currencies": "MMK",
+        "population_density": 80.42
+    },
+    {
+        "name": "Bhutan",
+        "official_name": "Kingdom of Bhutan",
+        "region": "Asia",
+        "population": 771612,
+        "currencies": "BTN, INR",
+        "population_density": 20.1
+    },
+    {
+        "name": "Venezuela",
+        "official_name": "Bolivarian Republic of Venezuela",
+        "region": "Americas",
+        "population": 28435943,
+        "currencies": "VES",
+        "population_density": 31.03
+    },
+    {
+        "name": "Liberia",
+        "official_name": "Republic of Liberia",
+        "region": "Africa",
+        "population": 5057677,
+        "currencies": "LRD",
+        "population_density": 45.41
+    },
+    {
+        "name": "Jamaica",
+        "official_name": "Jamaica",
+        "region": "Americas",
+        "population": 2961161,
+        "currencies": "JMD",
+        "population_density": 269.42
+    },
+    {
+        "name": "Poland",
+        "official_name": "Republic of Poland",
+        "region": "Europe",
+        "population": 37950802,
+        "currencies": "PLN",
+        "population_density": 121.37
+    },
+    {
+        "name": "Brunei",
+        "official_name": "Nation of Brunei, Abode of Peace",
+        "region": "Asia",
+        "population": 437483,
+        "currencies": "BND, SGD",
+        "population_density": 75.89
+    },
+    {
+        "name": "Comoros",
+        "official_name": "Union of the Comoros",
+        "region": "Africa",
+        "population": 869595,
+        "currencies": "KMF",
+        "population_density": 467.02
+    },
+    {
+        "name": "Tonga",
+        "official_name": "Kingdom of Tonga",
+        "region": "Oceania",
+        "population": 105697,
+        "currencies": "TOP",
+        "population_density": 141.5
+    },
+    {
+        "name": "Kiribati",
+        "official_name": "Independent and Sovereign Republic of Kiribati",
+        "region": "Oceania",
+        "population": 119446,
+        "currencies": "AUD, KID",
+        "population_density": 147.28
+    },
+    {
+        "name": "Ghana",
+        "official_name": "Republic of Ghana",
+        "region": "Africa",
+        "population": 31072945,
+        "currencies": "GHS",
+        "population_density": 130.27
+    },
+    {
+        "name": "Chad",
+        "official_name": "Republic of Chad",
+        "region": "Africa",
+        "population": 16425859,
+        "currencies": "XAF",
+        "population_density": 12.79
+    },
+    {
+        "name": "Zimbabwe",
+        "official_name": "Republic of Zimbabwe",
+        "region": "Africa",
+        "population": 14862927,
+        "currencies": "ZWL",
+        "population_density": 38.04
+    },
+    {
+        "name": "Mongolia",
+        "official_name": "Mongolia",
+        "region": "Asia",
+        "population": 3278292,
+        "currencies": "MNT",
+        "population_density": 2.1
+    },
+    {
+        "name": "Portugal",
+        "official_name": "Portuguese Republic",
+        "region": "Europe",
+        "population": 10305564,
+        "currencies": "EUR",
+        "population_density": 111.91
+    },
+    {
+        "name": "Republic of the Congo",
+        "official_name": "Republic of the Congo",
+        "region": "Africa",
+        "population": 5657000,
+        "currencies": "XAF",
+        "population_density": 16.54
+    },
+    {
+        "name": "Belgium",
+        "official_name": "Kingdom of Belgium",
+        "region": "Europe",
+        "population": 11555997,
+        "currencies": "EUR",
+        "population_density": 378.54
+    },
+    {
+        "name": "Israel",
+        "official_name": "State of Israel",
+        "region": "Asia",
+        "population": 9216900,
+        "currencies": "ILS",
+        "population_density": 443.76
+    },
+    {
+        "name": "New Zealand",
+        "official_name": "New Zealand",
+        "region": "Oceania",
+        "population": 5084300,
+        "currencies": "NZD",
+        "population_density": 18.8
+    },
+    {
+        "name": "Nicaragua",
+        "official_name": "Republic of Nicaragua",
+        "region": "Americas",
+        "population": 6624554,
+        "currencies": "NIO",
+        "population_density": 50.81
+    }
+]
