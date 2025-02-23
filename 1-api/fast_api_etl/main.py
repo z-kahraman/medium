@@ -2,6 +2,8 @@ from fastapi import FastAPI
 import json
 from extract import extract_data  # extract işlemi için
 from transform import transform_data  # transform işlemi için
+from load import save_to_json, save_to_csv, save_to_postgresql
+
 
 app = FastAPI()
 
@@ -42,6 +44,39 @@ def transform_endpoint():
     
     except Exception as e:
         return {"error": str(e)}
+
+
+# ✅ Load işlemi için PostgreSQL bağlantı bilgileri
+db_config = {
+    "dbname": "etl_db",
+    "user": "etl_user",
+    "password": "etl_password",
+    "host": "localhost",
+    "port": "5432"
+}
+
+@app.get("/load")
+def load_endpoint():
+    """Extract edilmiş ve transform edilmiş veriyi JSON, CSV ve PostgreSQL'e kaydeder."""
+    try:
+        with open("transformed_data.json", "r", encoding="utf-8") as f:
+            transformed_data = json.load(f)
+        
+        # ✅ JSON ve CSV olarak kaydetme
+        save_to_json(transformed_data)
+        save_to_csv(transformed_data)
+
+        # ✅ PostgreSQL'e kaydetme
+        save_to_postgresql(transformed_data, db_config)
+
+        return {"message": "Load işlemi başarılı! Veri JSON, CSV ve PostgreSQL'e kaydedildi."}
+
+    except FileNotFoundError:
+        return {"error": "❌ 'transformed_data.json' bulunamadı. Lütfen önce /transform çalıştırın."}
+
+    except Exception as e:
+        return {"error": str(e)}
+
 
 # FastAPI sunucusunu başlatmak için terminalde çalıştır:
 # uvicorn main:app --reload
