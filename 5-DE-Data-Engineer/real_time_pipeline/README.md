@@ -113,5 +113,5 @@ This project is licensed under the MIT License.
 📄 [Medium Blog](https://medium.com/@zafer_kahraman)  
 🐙 [GitHub](https://github.com/z-kahraman)  
 
-🚀 Follow for more **real-time data engineering projects!**
+🚀 Follow for more **data engineering projects!**
 
