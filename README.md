@@ -71,6 +71,6 @@ This repository will be frequently updated as new projects, learnings, and chall
 If you're interested in collaboration or have suggestions, feel free to open an issue or reach out! 🚀
 
 ## 🔗 Connect with Me:
-- **Linkedin**: [Zafer KAHRAMAN](https://linkedin.com/in/zafer-kahraman)
+- **LinkedIn**: [Zafer KAHRAMAN](https://linkedin.com/in/zafer-kahraman)
 - **Medium**: [@zafer_kahraman](https://medium.com/@zafer_kahraman)
 - **GitHub**: [z-kahraman](https://github.com/z-kahraman)
