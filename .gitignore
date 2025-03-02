@@ -9,17 +9,38 @@
 1-api/news_api_project/execution_logs/*.json
 1-api/news_api_project/execution_logs/*.csv
 
-
-# Ignore Python cache files
 __pycache__/
+*.ipynb        # Jupyter Notebook dosyaları
+*.pkl          # Pickle dosyaları (model veya veri serileştirme)
+*.db-journal   # SQLite geçici dosyaları
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore system files (Mac & Windows)
-.DS_Store
-Thumbs.db
+venv/          # Python sanal ortam klasörü
+*.env           # Ortam değişkenleri dosyası
+*.venv         # Alternatif sanal ortam dizini
+pip-log.txt    # pip yükleme logları
 
-# Ignore logs and temporary files
-*.log
-*.tmp
+
+*.sqlite3      # SQLite veritabanı dosyaları
+*.db           # Genel veritabanı dosyaları
+*.bak          # Yedekleme dosyaları
+*.csv~         # CSV geçici dosyaları
+
+
+.vscode/       # VS Code ayar dosyaları
+.idea/         # JetBrains IDE (PyCharm) dosyaları
+*.sublime-*    # Sublime Text ayarları
+*.swp          # Vim swap dosyaları
+
+
+*.log          # Log dosyaları
+*.tmp          # Geçici dosyalar
+*.cache        # Genel cache dosyaları
+*.pid          # Process ID dosyaları
+
+
+.dockerignore  # Docker ignore dosyası
+*.container    # Container metadata dosyaları
+
