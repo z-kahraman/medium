@@ -1,7 +1,7 @@
 import os
 from googleapiclient.discovery import build
 from dotenv import load_dotenv
-from video_ranking import rank_videos  # 📌 Video sıralama modülünü ekledik!
+from api.video_ranking import rank_videos  # 📌 Video sıralama modülünü ekledik!
 
 # API anahtarını yükle
 load_dotenv()
@@ -13,7 +13,7 @@ if not YOUTUBE_API_KEY:
 # YouTube API istemcisini başlat
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
-def search_youtube_videos(product_name, max_results=10):
+def search_youtube_videos(product_name, max_results=10, language="tr", region="TR"):
     """
     Belirtilen ürün adıyla YouTube'da arama yapar ve en iyi sonuçları döndürür.
     """
@@ -25,7 +25,10 @@ def search_youtube_videos(product_name, max_results=10):
             q=query,
             maxResults=max_results,
             order="relevance",  # En alakalı videoları getir
-            type="video"
+            type="video",
+            relevanceLanguage=language,  # 📌 İçeriğin dilini belirle
+            regionCode=region  # 📌 İçeriğin ülkesini belirle
+
         )
         response = request.execute()
 
@@ -58,7 +61,7 @@ def search_youtube_videos(product_name, max_results=10):
 
 # Test edelim
 if __name__ == "__main__":
-    product = "Samsung S23"
+    product = "Is the iPhone 13 Pro good for work"
     videos = search_youtube_videos(product)
 
     if videos:
